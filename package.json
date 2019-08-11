@@ -1,0 +1,23 @@
+{
+  "name": "lq-qa-project",
+  "version": "1.0.0",
+  "description": "LQ-QA React App",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megschem/LQ-QA.git"
+  },
+  "author": "megschem@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megschem/LQ-QA/issues"
+  },
+  "homepage": "https://github.com/megschem/LQ-QA#readme",
+  "devDependencies": {
+    "parcel-bundler": "1.12.3"
+  }
+}
