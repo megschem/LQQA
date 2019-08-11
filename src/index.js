@@ -2,13 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import Header from './components/Header';
+import Home from './components/Home';
+import SubmitQuestion from './components/SubmitQuestion';
+import Search from './components/Search';
+import ResultsList from './components/ResultsList';
+import About from './components/About';
+import Privacy from './components/Privacy';
+import Terms from './components/Terms';
+import Support from './components/Support';
+
+
 
 class App extends React.Component {
   render() {
     return(
-      <div className="stuff">
-        <Header something="Pudge" message="I love lamp" />
-        Hello World
+      <div className="container home-page">
+        <Header />
+        <Home />
+        {/* <Search /> */}
+        {/* <ResultsList /> */}
+        {/* <Results /> */}
+        {/* <SubmitQuestion /> */}
+        {/* <About /> */}
+        {/* <Terms /> */}
+        {/* <Privacy /> */}
+        {/* <Support /> */}
       </div>
     );
   }

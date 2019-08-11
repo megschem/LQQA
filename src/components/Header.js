@@ -3,7 +3,12 @@ import './Header.scss';
 
 function Header(props) {
   return(
-    <div className="header">Message: {props.something}</div>
+    <header>
+      <div className="logo" alt="LQ Q&A logo">
+        <h1>LQ Q&A</h1>
+      </div>
+      <div className="hamburger">X</div>
+    </header>
   );
 };
 
