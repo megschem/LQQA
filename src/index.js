@@ -6,12 +6,11 @@ import Home from './components/Home';
 import SubmitQuestion from './components/SubmitQuestion';
 import Search from './components/Search';
 import ResultsList from './components/ResultsList';
+import Result from './components/Result';
 import About from './components/About';
 import Privacy from './components/Privacy';
 import Terms from './components/Terms';
 import Support from './components/Support';
-
-
 
 class App extends React.Component {
   render() {
@@ -21,7 +20,7 @@ class App extends React.Component {
         <Home />
         {/* <Search /> */}
         {/* <ResultsList /> */}
-        {/* <Results /> */}
+        {/* <Result /> */}
         {/* <SubmitQuestion /> */}
         {/* <About /> */}
         {/* <Terms /> */}
