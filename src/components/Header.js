@@ -4,10 +4,10 @@ import './Header.scss';
 function Header(props) {
   return(
     <header>
-      <div className="logo" alt="LQ Q&A logo">
-        <h1>LQ Q&A</h1>
+      <div className="search-box">
+        SEARCH BOX FIELD
       </div>
-      <div className="hamburger">X</div>
+      <div className="hamburger">Menu</div>
     </header>
   );
 };

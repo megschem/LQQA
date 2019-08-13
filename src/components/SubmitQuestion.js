@@ -2,13 +2,13 @@ import React from 'react';
 
 function SubmitQuestion(props) {
   return(
-    <main>
+    <div className="main">
       <h1>Submit A Question</h1>
       <form>
         <input type="text"/>
         <button>Submit</button>
       </form>
-    </main>
+    </div>
   );
 };
 
