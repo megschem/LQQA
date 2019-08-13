@@ -4,7 +4,7 @@ import Header from './Header';
 
 describe('components/Header', () => {
   it('Renders the component', () => {
-    const { getByText } = render(<Header something="Pudge" />);
-    expect(getByText('Message: Pudge')).toBeTruthy();
+    const { getByText } = render(<Header />);
+    expect(getByText('SEARCH BOX FIELD')).toBeTruthy();
   });
 });
