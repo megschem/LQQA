@@ -3,7 +3,7 @@ import { Link } from "@reach/router";
 
 function Menu(props) {
   return(
-    <main>
+    <div className="main menu-page">
       <h1>MENU</h1>
       <Link to="/">
         <h2>Home</h2>
@@ -23,7 +23,7 @@ function Menu(props) {
       <Link to="/terms-of-service">
         <h2>Terms of Service</h2>
       </Link>
-    </main>
+    </div>
   );
 };
 

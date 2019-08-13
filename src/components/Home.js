@@ -3,13 +3,11 @@ import { Link } from "@reach/router";
 
 function Home(props) {
   return(
-    <main>
+    <div className="main home-page">
+      <h1 className="logo">LQ QA Logo</h1>
       <Link to="submit-question">
         <h2>Submit A Question</h2>
       </Link>
-      <div className="search-box">
-        SEARCH BOX FIELD
-      </div>
       <Link to="support">
         <h2>Support</h2>
       </Link>
@@ -19,7 +17,7 @@ function Home(props) {
       <Link to="terms-of-service">
         <h2>Terms of Service</h2>
       </Link>
-    </main>
+    </div>
   );
 };
 

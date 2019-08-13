@@ -16,9 +16,8 @@ import Support from './components/Support';
 
 const App = () => {
   return(
-    <div className="container home-page">
+    <div className="container">
       <Header />
-
       <Router>
         <Home path="/" />
         <Menu path="/menu" />
