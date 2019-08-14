@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ResultsList(props) {
+function SearchResults(props) {
   return(
     <div className="main">
       <h1>Search Results:</h1>
@@ -12,4 +12,4 @@ function ResultsList(props) {
   );
 };
 
-export default ResultsList;
+export default SearchResults;

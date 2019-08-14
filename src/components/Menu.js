@@ -1,11 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Home(props) {
+function Menu(props) {
   return(
     <div className="main">
-      <div className="logo" alt="LQ Q&A logo">
-        <h1>LQ Q&A</h1>
-      </div>
+      <h1>MENU</h1>
+      <Link to="/">
+        <h2>Home</h2>
+      </Link>
+      <Link to="/search">
+        <h2>Search</h2>
+      </Link>
       <Link to="/submit-question">
         <h2>Submit A Question</h2>
       </Link>
@@ -22,4 +27,4 @@ function Home(props) {
   );
 };
 
-export default Home;
+export default Menu;

@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import ResultList from './ResultsList';
+import SearchResults from './SearchResults';
 
-describe('components/ResultList', () => {
+describe('components/SearchResults', () => {
   it('Renders the component', () => {
-    const { getByText } = render(<ResultList />);
+    const { getByText } = render(<SearchResults />);
     expect(getByText('Search Results:')).toBeTruthy();
   });
 });

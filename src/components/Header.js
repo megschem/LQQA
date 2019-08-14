@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.scss';
 
 function Header(props) {
@@ -7,7 +8,7 @@ function Header(props) {
       <div className="search-box">
         SEARCH BOX FIELD
       </div>
-      <div className="hamburger">Menu</div>
+      <Link to="/menu/" className="hamburger">Menu</Link>
     </header>
   );
 };

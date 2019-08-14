@@ -2,11 +2,16 @@ import React from 'react';
 
 function Support(props) {
   return(
-    <div className="main">
+    <div className="main support">
       <h1>SUPPORT</h1>
       <h2>Questions, Comments, Requests?</h2>
       <p>Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris
       molestie elit, et lacinia ipsum quam nec dui.</p>
+
+      <form>
+        <input type="email" />
+        <button>Submit</button>
+      </form>
     </div>
   );
 };
