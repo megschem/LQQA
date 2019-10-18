@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.scss';
 
-function Footer(props) {
-  return(
-    <div className="footer">Greeting: {props.name}</div>
-  );
-};
-
-export default Footer;
+export default class Footer extends React.Component {
+  render() {
+    return (
+      <div className="footer">Greeting: {props.name}</div>
+    );
+  }
+}

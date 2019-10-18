@@ -5,6 +5,7 @@ import './index.scss';
 import About from './components/About';
 import Header from './components/Header';
 import Home from './components/Home';
+import Footer from './components/Footer';
 import Menu from './components/Menu';
 import Privacy from './components/Privacy';
 import Result from './components/Result';
@@ -14,7 +15,8 @@ import SubmitQuestion from './components/SubmitQuestion';
 import Support from './components/Support';
 import Terms from './components/Terms';
 
-function App() {
+class App extends React.Component {
+  render() {
     return(
       <Router>
         <div className="container home-page">
@@ -30,9 +32,12 @@ function App() {
           <Route path="/submit-question/" component={SubmitQuestion} />
           <Route path="/support/" component={Support} />
           <Route path="/terms-of-service/" component={Terms} />
+
+          <Footer />
         </div>
       </Router>
     );
+  }
 }
 
 const mountNode = document.getElementById('app');
