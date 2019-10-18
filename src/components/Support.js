@@ -1,5 +1,10 @@
 import React from 'react';
 
+function sendSupportRequest(event) {
+  event.preventDefault();
+  console.log('Submitting the email!');
+}
+
 function Support(props) {
   return(
     <div className="main support">
@@ -8,9 +13,9 @@ function Support(props) {
       <p>Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris
       molestie elit, et lacinia ipsum quam nec dui.</p>
 
-      <form>
-        <input type="email" />
-        <button>Submit</button>
+      <form id="form-id">
+        <input type="text" />
+        <button id="email-id" onClick={sendSupportRequest}>Submit</button>
       </form>
     </div>
   );
